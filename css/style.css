@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+
+header h1{
+    text-align: center;
+}
+
+main table{
+    margin: auto;
+}
+
+table thead{
+    font-size: 36px;
+}
+
+table thead th:nth-child(2){
+    padding-left: 50px;
+}
+
+table thead th{
+    padding-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
+
+table tbody td:nth-child(4){
+    padding-left: 50px;
+}
+
+table tbody td:nth-child(3){
+    padding-left: 50px;
+}
+
+input[type="hidden"]{
+    padding: 0;
+}
+
+.center{
+    
+    width: 100%;
+    margin: 10px auto;
+    text-align: center;
+}
